@@ -18,7 +18,7 @@ jobs:
           name: Get OpenJDK
           command: apt install default-jdk -y
       - run:
-          name: Build
+          name: Fetch deps
           command: ./gradlew assemble
       - run:
           name: Build 2
